@@ -70,3 +70,7 @@ S3:
 # Workspaces
 * Terraform workspaces enable us to manage multiple deployments of the same configuration. When we create cloud resources using the Terraform configuration language, the resources are created in the default workspace. It is a very handy tool that lets us test configurations by giving us flexibility in resource allocation, regional deployments, multi-account deployments, and so on.
 
+# Null resource:
+* In Terraform, a null_resource is a special type of resource used to perform actions that are not directly related to managing infrastructure. It is part of the null provider, which is built into Terraform
+* It is used for executing arbitrary code or running actions that do not involve creating or managing actual infrastructure resources. This can include tasks such as running scripts, triggering external processes, or setting up dependencies that are not handled by other Terraform resources
+
